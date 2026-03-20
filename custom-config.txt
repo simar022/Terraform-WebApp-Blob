@@ -1,0 +1,3 @@
+Hello from Terraform !!
+
+This setup uses Terraform to build a system which hosts Azure Web App and logs the information in Blob storage account.  
