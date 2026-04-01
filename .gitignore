@@ -6,7 +6,7 @@
 
 # Crash logs
 crash.log
-*.terraform
+*.terraform.*
 # Variables files (if they contain secrets)
 *.tfvars
 *.tfvars.json
