@@ -1,12 +1,11 @@
-.terraform/*
+**/.terraform/
 
-# State files (contains secrets and sensitive data)
 *.tfstate
 *.tfstate.*
 
-# Crash logs
-crash.log
-*.terraform.*
-# Variables files (if they contain secrets)
+.terraform.lock.hcl
+
 *.tfvars
 *.tfvars.json
+
+crash.log
